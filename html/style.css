@@ -15,10 +15,10 @@
     background-repeat: repeat;
 
 }*/
-.container {
+/* .container {
     max-width: 1200px;
     margin: 0 auto;
-}
+} */
 .header{
     display: flex;
     position: relative;
@@ -69,7 +69,7 @@
 
 .bg{
     position: absolute;
-    width: 50%;
+    width: 25%;
     z-index: -1;
     right: 0;
     background-repeat: repeat;
@@ -96,7 +96,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .header-txt h1 {
-    font-size: 55px;
+    font-size: 35px;
     line-height: 100px;
     font-weight: 600;
     color: #303030;
@@ -165,7 +165,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 400px;
+    width: 120px;
     z-index: -1;
 }
 .nosotros-info {
