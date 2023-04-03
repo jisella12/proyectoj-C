@@ -76,13 +76,13 @@
     scroll-behavior: auto;
 
 }
-.esp {
+/* .esp {
     position: absolute;
     top: 700px;
     bottom: 0;
     width: 350px;
 
-}
+} */
 .header-info{
     display: flex;
     align-items: center;
