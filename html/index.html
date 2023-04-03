@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     
     
     <!--Link a Bootstrap-->
@@ -44,6 +44,7 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius adipisci vero esse nostrum, fuga placeat officia soluta magnam numquam distinctio, architecto amet excepturi sequi quod, repudiandae iste modi dolore ipsam.
                     </p>
                     <p></p>
+                    
                     <a href="rg.html" class="btn-1"> Registrate Aquí</a>
 
                 </div>
@@ -52,6 +53,7 @@
             </div>
         </div>
     </header>
+    
 
     <section class="info container">
 
@@ -83,18 +85,16 @@
     <section class="nosotros">
 
         <img class="bg-2" src="images/bg-2.svg" alt="">
+        
 
         <div class="nosotros-info container">
 
             <div class="container-fluid " style="align-items: center;">
-                <!--Características de mi carrusel
-               No olvidar que los atributos de data: son datos que se pueden extraer desde el js
-               y los podemos utilizar para diferentes cosas, en éste caso específico le debemos 
-               indicar que utilizaremos un carousel-->
+              
                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                   <!--en el carousel-inner se indica lo que se mostrará-->
+                 
                    <div class="carousel-inner">
-                       <!--por cada imágen necesito un item e indico cual es la primera con active-->
+                      
                      <div class="carousel-item active">
                        <img src="images/bu1.jpg" width="300" height="290" alt="libros1">
                      </div>
@@ -119,11 +119,34 @@
 
             <div class="nosotros-txt">
                 <span>Premium</span>
-                <h2>Mejor calidad en libros</h2>
+                <h2>Datos Sobre Libros</h2>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore nulla porro delectus culpa, consectetur recusandae, pariatur quia consequatur, dolores ipsum molestiae aliquid ad! Commodi porro nemo, culpa recusandae praesentium animi?
                 </p>
-                <a href="#" class="btn-1">Saber Mas</a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Mas Informacion
+                </button>    
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        
+                    <div class="modal-content">
+                        
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Mas Informacion</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>"Los libros y capítulos de libros, cuando estén publicados en editoriales de reconocido prestigio, en cuya evaluación se tendrá en cuenta el número y calidad de las citas, cuando ello sea posible, u otras medidas de su nivel de impacto, así como el prestigio internacional de la editorial, los editores, la colección en la que se publica la obra, el proceso riguroso de selección y evaluación de originales, y las reseñas en las revistas científicas especializadas."</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!-- <a href="#" class="btn-1">Saber Mas</a> -->
             </div>
         </div>
     </section>
