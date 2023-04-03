@@ -8,26 +8,27 @@
     list-style: none;
 
 }
-/*.body header footer{
+.body header footer{
     font-family: 'Poppins', sans-serif;
     background-image: url(images/fondo.jpg);
     background-attachment: scroll;
     background-repeat: repeat;
 
-}*/
-/* .container {
+}
+.container {
     max-width: 1200px;
     margin: 0 auto;
-} */
+}
 .header{
     display: flex;
-    position: relative;
+    /*position: relative;*/
 }
 .menu{
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,6 +40,7 @@
     font-size: 35px;
     font-weight: 800;
     font-family: cursive;
+    background-image: url(images/descarga.png);
 }
 
 .menu .navbar ul li {
@@ -69,7 +71,7 @@
 
 .bg{
     position: absolute;
-    width: 25%;
+    width: 50%;
     z-index: -1;
     right: 0;
     background-repeat: repeat;
@@ -87,6 +89,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 100px;
+    padding-top: 30px;
 }
 
 .header-txt {
@@ -96,7 +99,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .header-txt h1 {
-    font-size: 35px;
+    font-size: 55px;
     line-height: 100px;
     font-weight: 600;
     color: #303030;
@@ -165,7 +168,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 120px;
+    width: 400px;
     z-index: -1;
 }
 .nosotros-info {
@@ -286,9 +289,6 @@ hr {
     color: #545454;
 }
 @media(max-width: 991px) {
-    .menu {
-        padding: 30px;
-    }
     .menu label {
         display: initial;
     }
@@ -421,5 +421,7 @@ hr {
         margin-bottom: 25px;
     }
 
+
+    .filtrarbusqueda
 
 }
