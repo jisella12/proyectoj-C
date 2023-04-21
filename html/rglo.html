@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Mi cuenta</title>
+      <link rel="stylesheet" href="css/rglo.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+   </head>
+   <body>
+      <body class="nadvar">
+         <header>
+            <div class="container-hero">
+               <div class="container hero">
+                  <div class="customer-support">
+                     <i class="fa-solid fa-headset"></i>
+                     <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="number">123-456-7890</span>
+                     </div>
+                  </div>
+   
+                  <div class="container-logo">
+                     <i class="books"></i>
+                     <h1 class="logo"><a href="/">Libros J&C</a></h1>
+                  </div>
+   
+                  <div class="container-user">
+                     <i class="fa-solid fa-user"></i>
+                     <i class="fa-solid fa-basket-shopping"></i>
+                     <div class="content-shopping-cart">
+                        <span class="text">Carrito</span>
+                        <span class="number">(0)</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+   
+            <div class="container-navbar">
+               <nav class="navbar container">
+                  <i class="fa-solid fa-bars"></i>
+                  <ul class="menu">
+                     <li><a href="Inicio.html">Inicio</a></li>
+                     <li><a href="productos.html">Producto</a></li>
+                     <li><a href="Contacto.html">Contacto</a></li>
+                     <li><a href="rglo.html">Mi cuenta</a></li>
+                     <li><a href="#">Blog</a></li>
+                  </ul>
+   
+                  <!-- <form class="search-form">
+                     <input type="search" placeholder="Buscar..." />
+                     <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                     </button>
+                  </form> -->
+               </nav>
+            </div>
+         </header>
+      </body>
+      
+
+
+   
+   
+      <div class="wrapper">
+         <div class="title-text">
+            <div class="title login">
+               Iniciar Sesion
+            </div>
+            <div class="title signup">
+               Registro
+            </div>
+         </div>
+         <div class="form-container">
+            <div class="slide-controls">
+               <input type="radio" name="slide" id="login" checked>
+               <input type="radio" name="slide" id="signup">
+               <label for="login" class="slide login">Iniciar Sesion</label>
+               <label for="signup" class="slide signup">Registrate</label>
+               <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+               <form action="#" class="login">
+                  <div class="field">
+                     <input type="text" placeholder="Correo Electronico" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" placeholder="Contraseña" required>
+                  </div>
+                  <div class="pass-link">
+                     <a href="#">Olvidaste la Contraseña?</a>
+                  </div>
+                  <div class="field btn">
+                     <div class="btn-layer"></div>
+                     <input type="submit" value="Login">
+                  </div>
+                  <div class="signup-link">
+                     No tienes una cuenta? <a href="">Registrate Aqui</a>
+                  </div>
+               </form>
+               <form action="#" class="signup">
+                  <div class="field">
+                     <input type="text" placeholder="Correo Electronico" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" placeholder="Contraseña" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" placeholder="Confirmar Contraseña" required>
+                  </div>
+                  <div class="field btn">
+                     <div class="btn-layer"></div>
+                     <input type="submit" value="Registrate">
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+      <script>
+         const loginText = document.querySelector(".title-text .login");
+         const loginForm = document.querySelector("form.login");
+         const loginBtn = document.querySelector("label.login");
+         const signupBtn = document.querySelector("label.signup");
+         const signupLink = document.querySelector("form .signup-link a");
+         signupBtn.onclick = (()=>{
+           loginForm.style.marginLeft = "-50%";
+           loginText.style.marginLeft = "-50%";
+         });
+         loginBtn.onclick = (()=>{
+           loginForm.style.marginLeft = "0%";
+           loginText.style.marginLeft = "0%";
+         });
+         signupLink.onclick = (()=>{
+           signupBtn.click();
+           return false;
+         });
+      </script>
+   </body>
+   
+</html>

@@ -22,9 +22,9 @@
     border-radius: 0;
 }
 
-/* .form-group {
+.form-group {
     margin-bottom: 1rem;
-} */
+}
 
 .btn, .sidebar-trigger, .bestseller-page .item-img .number {
     display: block;
