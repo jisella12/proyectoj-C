@@ -13,7 +13,7 @@ html {
   	height: 100%;
   	width: 100%;
   	position: center;
-  	background: -webkit-linear-gradient(left,#e5d2c4,#ada494, #e4aba5, #c7b8ac);
+  	background: -webkit-linear-gradient(left,#efe6df,#e2ded5, #f7d7d3, #efe4dc);
 	
 }
 
@@ -384,6 +384,7 @@ html {
 	flex-direction: column;
 	gap: 2rem;
 	margin-bottom: 3rem;
+	
 }
 
 .container-options {
@@ -391,6 +392,7 @@ html {
 	justify-content: center;
 	gap: 2rem;
 	margin-bottom: 1rem;
+	
 }
 
 .container-options span {
@@ -401,23 +403,27 @@ html {
 	text-transform: capitalize;
 	border-radius: 2rem;
 	cursor: pointer;
+	
 }
 
 .container-options span:hover {
 	background-color: var(--primary-color);
 	color: #fff;
+	
 }
 
 .container-options span.active {
 	background-color: var(--primary-color);
 	color: #fff;
+	box-shadow: 0 0.1rem 0.4rem rgba(0,0,0, 3)
 }
 
-/* Products */
+/* Productos */
 .container-products {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 	gap: 3rem;
+	
 }
 
 .card-product {
@@ -476,6 +482,7 @@ html {
 
 .button-group span:hover {
 	background-color: var(--primary-color);
+	box-shadow: 0 0.1rem 0.4rem rgba(0,0,0, 3)
 }
 
 .button-group span i {
@@ -485,6 +492,7 @@ html {
 
 .button-group span:hover i {
 	color: #fff;
+	box-shadow: 0 0.1rem 0.4rem rgba(0,0,0, 3)
 }
 
 .card-product:hover .button-group {
@@ -522,6 +530,7 @@ html {
 
 .content-card-product h3:hover {
 	color: var(--primary-color);
+	
 }
 
 .add-cart {
@@ -539,6 +548,7 @@ html {
 
 .add-cart:hover {
 	background-color: var(--primary-color);
+	
 }
 
 .add-cart i {
@@ -548,6 +558,7 @@ html {
 
 .add-cart:hover i {
 	color: #fff;
+	
 }
 
 .content-card-product .price {
