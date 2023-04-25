@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-	--primary-color: #f0b172;
+	--primary-color: #c7a17a;
 	--background-color: #f9f5f0;
 	--dark-color: #151515;
 }
@@ -9,12 +9,7 @@
 html {
 	font-size: 62.5%;
 	font-family: 'Poppins', sans-serif;
-	display: grid;
-  	height: 100%;
-  	width: 100%;
-  	position: center;
-  	background: -webkit-linear-gradient(left,#efe6df,#e2ded5, #f7d7d3, #efe4dc);
-	
+	background: -webkit-linear-gradient(left,#e4ded9,#FDF5E6, #FFE4E1, #ddc2ae);
 }
 
 * {
@@ -34,7 +29,7 @@ html {
 .heading-1 {
 	text-align: center;
 	font-weight: 500;
-	font-size: 3rem;
+	font-size: 4rem;
 }
 
 /* ********************************** */
@@ -54,7 +49,7 @@ html {
 .customer-support {
 	display: flex;
 	align-items: center;
-	gap: 2rem;
+	gap: 4rem;
 }
 
 .customer-support i {
@@ -69,7 +64,7 @@ html {
 .container-logo {
 	display: flex;
 	align-items: center;
-	gap: 1.5rem;
+	gap: 0.5rem;
 }
 
 .container-logo i {
@@ -82,8 +77,8 @@ html {
 	font-size: 3rem;
 	text-transform: uppercase;
 	letter-spacing: -1px;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	align-items: center;
+	text-transform: capitalize;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .container-user {
@@ -91,17 +86,18 @@ html {
 	gap: 1rem;
 	cursor: pointer;
 }
-/* login */
+
 .container-user .fa-user {
 	font-size: 3rem;
 	color: var(--primary-color);
 	padding-right: 2.5rem;
+	border-right: 1px solid #e2e2e2;
 }
-/* carro de compra */
+
 .container-user .fa-basket-shopping {
 	font-size: 3rem;
 	color: var(--primary-color);
-	padding-left: -5rem;
+	padding-left: 1rem;
 }
 
 .content-shopping-cart {
@@ -118,7 +114,7 @@ html {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 3rem 0;
+	padding: 1rem 0;
 }
 
 .navbar .fa-bars {
@@ -127,7 +123,7 @@ html {
 
 .menu {
 	display: flex;
-	gap: 2rem;
+	gap: 3rem;
 }
 
 .menu li {
@@ -136,7 +132,7 @@ html {
 
 .menu a {
 	text-decoration: none;
-	font-size: 1.9rem;
+	font-size: 1.7rem;
 	color: var(--dark-color);
 	font-weight: 600;
 	text-transform: uppercase;
@@ -180,7 +176,7 @@ html {
 	font-family: inherit;
 	border: none;
 	width: 25rem;
-	font-size: 1.4rem;
+	font-size: 2.4rem;
 	padding: 0 2rem;
 	color: #777;
 	cursor: pointer;
@@ -210,7 +206,7 @@ html {
 /* ********************************** */
 .banner {
 	background-image: linear-gradient(100deg, #000000, #00000020),
-		url('https://i.pinimg.com/736x/32/b6/20/32b6208676d74145797a04cf671aa390.jpg');
+		url('https://i.pinimg.com/564x/16/92/15/169215aedd8465336dfa156230e2ff9a.jpg');
 	height: 60rem;
 	background-size: cover;
 	background-position: center;
@@ -326,7 +322,7 @@ html {
 
 .category-moca {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('https://i.pinimg.com/474x/e8/e1/9e/e8e19e9547c88d253d6d320a061ea5e9.jpg');
+		url('img/moca-category.jpg');
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -334,7 +330,7 @@ html {
 
 .category-capuchino {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('https://i.pinimg.com/564x/df/7c/32/df7c321e23a08f6d4d821ae19b5f4e88.jpg');
+		url('img/capuchino-category.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -342,7 +338,7 @@ html {
 
 .category-expreso {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('https://i.pinimg.com/474x/c9/95/12/c9951235abd19a9fd92bddc45423a9cb.jpg');
+		url('img/expreso-category.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -384,7 +380,6 @@ html {
 	flex-direction: column;
 	gap: 2rem;
 	margin-bottom: 3rem;
-	
 }
 
 .container-options {
@@ -392,7 +387,6 @@ html {
 	justify-content: center;
 	gap: 2rem;
 	margin-bottom: 1rem;
-	
 }
 
 .container-options span {
@@ -403,33 +397,29 @@ html {
 	text-transform: capitalize;
 	border-radius: 2rem;
 	cursor: pointer;
-	
 }
 
 .container-options span:hover {
 	background-color: var(--primary-color);
 	color: #fff;
-	
 }
 
 .container-options span.active {
 	background-color: var(--primary-color);
 	color: #fff;
-	box-shadow: 0 0.1rem 0.4rem rgba(0,0,0, 3)
 }
 
-/* Productos */
+/* Products */
 .container-products {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 	gap: 3rem;
-	
 }
 
 .card-product {
 	background-color: #fff;
-	padding: 2rem 1rem;
-	border-radius: 0.9rem;
+	padding: 2rem 3rem;
+	border-radius: 0.5rem;
 	cursor: pointer;
 	box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
 }
@@ -449,7 +439,7 @@ html {
 	color: #fff;
 	padding: 2px 1.2rem;
 	border-radius: 1rem;
-	font-size: 2.2rem;
+	font-size: 1.2rem;
 }
 
 .card-product:hover .discount {
@@ -459,18 +449,18 @@ html {
 .button-group {
 	display: flex;
 	flex-direction: column;
-	gap: 3rem;
+	gap: 1rem;
 
 	position: absolute;
 	top: 0;
-	right: -5rem;
+	right: -3rem;
 	z-index: -1;
-	transition: all 0.6s ease;
+	transition: all 0.4s ease;
 }
 
 .button-group span {
-	border: 10px solid var(--primary-color);
-	padding: 0.9rem;
+	border: 1px solid var(--primary-color);
+	padding: 0.8rem;
 
 	display: flex;
 	align-items: center;
@@ -482,7 +472,6 @@ html {
 
 .button-group span:hover {
 	background-color: var(--primary-color);
-	box-shadow: 0 0.1rem 0.4rem rgba(0,0,0, 3)
 }
 
 .button-group span i {
@@ -492,7 +481,6 @@ html {
 
 .button-group span:hover i {
 	color: #fff;
-	box-shadow: 0 0.1rem 0.4rem rgba(0,0,0, 3)
 }
 
 .card-product:hover .button-group {
@@ -514,7 +502,7 @@ html {
 }
 
 .stars i {
-	font-size: 1.8rem;
+	font-size: 1.3rem;
 	color: var(--primary-color);
 }
 
@@ -523,20 +511,19 @@ html {
 	grid-column: 1/-1;
 
 	font-weight: 400;
-	font-size: 1.9rem;
-	margin-bottom: 5rem;
+	font-size: 1.6rem;
+	margin-bottom: 1rem;
 	cursor: pointer;
 }
 
 .content-card-product h3:hover {
 	color: var(--primary-color);
-	
 }
 
 .add-cart {
 	justify-self: start;
 	border: 2px solid var(--primary-color);
-	padding: 2rem;
+	padding: 1rem;
 	border-radius: 50%;
 	cursor: pointer;
 	transition: all 0.4s ease;
@@ -548,17 +535,15 @@ html {
 
 .add-cart:hover {
 	background-color: var(--primary-color);
-	
 }
 
 .add-cart i {
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	color: var(--primary-color);
 }
 
 .add-cart:hover i {
 	color: #fff;
-	
 }
 
 .content-card-product .price {
