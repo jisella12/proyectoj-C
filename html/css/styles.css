@@ -418,18 +418,17 @@ html {
 	box-shadow: 0 0.1rem 0.4rem rgba(0,0,0, 3)
 }
 
-/* Productos */
+/* Products */
 .container-products {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 	gap: 3rem;
-	
 }
 
 .card-product {
 	background-color: #fff;
-	padding: 2rem 1rem;
-	border-radius: 0.9rem;
+	padding: 2rem 3rem;
+	border-radius: 0.5rem;
 	cursor: pointer;
 	box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
 }
@@ -449,7 +448,7 @@ html {
 	color: #fff;
 	padding: 2px 1.2rem;
 	border-radius: 1rem;
-	font-size: 2.2rem;
+	font-size: 1.2rem;
 }
 
 .card-product:hover .discount {
@@ -459,18 +458,18 @@ html {
 .button-group {
 	display: flex;
 	flex-direction: column;
-	gap: 3rem;
+	gap: 1rem;
 
 	position: absolute;
 	top: 0;
-	right: -5rem;
+	right: -3rem;
 	z-index: -1;
-	transition: all 0.6s ease;
+	transition: all 0.4s ease;
 }
 
 .button-group span {
-	border: 10px solid var(--primary-color);
-	padding: 0.9rem;
+	border: 1px solid var(--primary-color);
+	padding: 0.8rem;
 
 	display: flex;
 	align-items: center;
@@ -482,7 +481,6 @@ html {
 
 .button-group span:hover {
 	background-color: var(--primary-color);
-	box-shadow: 0 0.1rem 0.4rem rgba(0,0,0, 3)
 }
 
 .button-group span i {
@@ -492,7 +490,6 @@ html {
 
 .button-group span:hover i {
 	color: #fff;
-	box-shadow: 0 0.1rem 0.4rem rgba(0,0,0, 3)
 }
 
 .card-product:hover .button-group {
@@ -514,7 +511,7 @@ html {
 }
 
 .stars i {
-	font-size: 1.8rem;
+	font-size: 1.3rem;
 	color: var(--primary-color);
 }
 
@@ -523,20 +520,19 @@ html {
 	grid-column: 1/-1;
 
 	font-weight: 400;
-	font-size: 1.9rem;
-	margin-bottom: 5rem;
+	font-size: 1.6rem;
+	margin-bottom: 1rem;
 	cursor: pointer;
 }
 
 .content-card-product h3:hover {
 	color: var(--primary-color);
-	
 }
 
 .add-cart {
 	justify-self: start;
 	border: 2px solid var(--primary-color);
-	padding: 2rem;
+	padding: 1rem;
 	border-radius: 50%;
 	cursor: pointer;
 	transition: all 0.4s ease;
@@ -548,17 +544,15 @@ html {
 
 .add-cart:hover {
 	background-color: var(--primary-color);
-	
 }
 
 .add-cart i {
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	color: var(--primary-color);
 }
 
 .add-cart:hover i {
 	color: #fff;
-	
 }
 
 .content-card-product .price {
@@ -1088,5 +1082,6 @@ html {
 
 	.content p{
 		font-size: 1.6rem;
-	}
+	
+}
 }
