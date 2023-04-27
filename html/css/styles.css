@@ -16,6 +16,7 @@ html {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /* ********************************** */
@@ -204,6 +205,22 @@ html {
 /* ********************************** */
 /*               BANNER               */
 /* ********************************** */
+.navbar{
+    font-size: medium;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    color: white;
+
+}
+
+#btn{
+color-scheme: lightblue;
+}
+
+.dropdown-item{
+font-size: medium;
+color: white;
+
+}
 .banner {
 	background-image: linear-gradient(100deg, #000000, #00000020),
 		url('https://i.pinimg.com/564x/16/92/15/169215aedd8465336dfa156230e2ff9a.jpg');
@@ -293,84 +310,6 @@ html {
 	font-weight: 500;
 }
 
-/* ********************************** */
-/*             CATEGORIES             */
-/* ********************************** */
-
-.top-categories {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	margin-bottom: 3rem;
-}
-
-.container-categories {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 3rem;
-}
-
-.card-category {
-	height: 20rem;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	border-radius: 2rem;
-	gap: 2rem;
-}
-
-.category-moca {
-	background-image: linear-gradient(#00000080, #00000080),
-		url('img/moca-category.jpg');
-	background-size: cover;
-	background-position: bottom;
-	background-repeat: no-repeat;
-}
-
-.category-capuchino {
-	background-image: linear-gradient(#00000080, #00000080),
-		url('img/capuchino-category.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.category-expreso {
-	background-image: linear-gradient(#00000080, #00000080),
-		url('img/expreso-category.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-.card-category p {
-	font-size: 2.5rem;
-	color: #fff;
-	text-transform: capitalize;
-	position: relative;
-}
-
-.card-category p::after {
-	content: '';
-	width: 2.5rem;
-	height: 2px;
-	background-color: #fff;
-	position: absolute;
-	bottom: -1rem;
-	left: 50%;
-	transform: translate(-50%, 50%);
-}
-
-.card-category span {
-	font-size: 1.6rem;
-	color: #fff;
-	cursor: pointer;
-}
-
-.card-category span:hover {
-	color: var(--primary-color);
-}
 
 /* ********************************** */
 /*            TOP PRODUCTS            */
@@ -539,6 +478,7 @@ html {
 
 .add-cart i {
 	font-size: 1.5rem;
+	font-size: 1.5rem;
 	color: var(--primary-color);
 }
 
@@ -572,7 +512,6 @@ html {
 	gap: 1.5rem;
 	margin-bottom: 3rem;
 }
-
 .gallery img {
 	width: 100%;
 	height: 100%;
