@@ -21,16 +21,16 @@ html {
 /* ********************************** */
 /*             UTILIDADES             */
 /* ********************************** */
-.container {
+/* .container {
 	max-width: 120rem;
 	margin: 0 auto;
-}
-
+} */
+/* 
 .heading-1 {
 	text-align: center;
 	font-weight: 500;
 	font-size: 4rem;
-}
+} */
 
 /* ********************************** */
 /*               HEADER               */
@@ -106,7 +106,7 @@ html {
 }
 
 /* ************* NAVBAR ************* */
-.container-navbar {
+/* .container-navbar {
 	background-color: var(--primary-color);
 }
 
@@ -120,8 +120,8 @@ html {
 .navbar .fa-bars {
 	display: none;
 }
-
-.menu {
+ */
+/* .menu {
 	display: flex;
 	gap: 3rem;
 }
@@ -200,7 +200,7 @@ html {
 	font-size: 2rem;
 	color: #fff;
 }
-
+ */
 /* ********************************** */
 /*               BANNER               */
 /* ********************************** */
