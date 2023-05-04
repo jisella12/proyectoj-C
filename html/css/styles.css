@@ -2,7 +2,7 @@
 
 :root {
 	--primary-color: #c7a17a;
-	--background-color: #f9f5f0;
+	--background-color: #FDF5E6;
 	--dark-color: #151515;
 }
 
@@ -21,25 +21,6 @@ html {
 }
 body{
 	background: -webkit-linear-gradient(left,#e4ded9,#FDF5E6, #FFE4E1, #ddc2ae);
-}
-
-/* nav */
-.navbar{
-    font-size: medium;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-    color: white;
-    padding: 1rem 0;
-
-}
-
-#btn{
-color-scheme: lightblue;
-}
-
-.dropdown-item{
-font-size: medium;
-color: white;
-
 }
 
 /* ********************************** */
@@ -89,10 +70,12 @@ color: white;
 	display: flex;
 	align-items: center;
 	gap: 0.5rem;
+	text-decoration: none;
 }
 
 .container-logo i {
 	font-size: 3rem;
+	text-decoration: none;
 }
 
 .container-logo h1 a {
@@ -113,14 +96,14 @@ color: white;
 
 .container-user .fa-user {
 	font-size: 3rem;
-	color: var(--primary-color);
+	color: #000000;
 	padding-right: 2.5rem;
 	border-right: 1px solid #e2e2e2;
 }
 
 .container-user .fa-basket-shopping {
 	font-size: 3rem;
-	color: var(--primary-color);
+	color: #000000;
 	padding-left: 1rem;
 	
 }
@@ -135,7 +118,7 @@ color-scheme: lightblue;
 
 .dropdown-item{
 font-size: medium;
-color: white;
+color: rgb(141, 77, 77);
 
 }
 .banner {
@@ -160,7 +143,7 @@ color: white;
 }
 
 .content-banner h2 {
-	color: #fff;
+	color: #e8cece;
 	font-size: 3.5rem;
 	font-weight: 500;
 	line-height: 1.2;
@@ -169,7 +152,7 @@ color: white;
 .content-banner a {
 	margin-top: 2rem;
 	text-decoration: none;
-	color: #fff;
+	color: #eae3e3;
 	background-color: var(--primary-color);
 	display: inline-block;
 	padding: 1rem 3rem;
