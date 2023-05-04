@@ -1,17 +1,12 @@
-.navbar{
+.nav nav-tabs{
+    position: sticky;
     font-size: medium;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-    color: white;
-    padding: 1rem 0;
-
+    background-color: #c7a17a;
 }
 
-#btn{
-color-scheme: lightblue;
-}
 
-.dropdown-item{
-font-size: medium;
-color: white;
-
+.nav-link{
+    font-size: large;
+    background-color: #c7a17a;
+    color: black;
 }
