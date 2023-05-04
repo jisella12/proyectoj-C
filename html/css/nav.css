@@ -1,12 +1,26 @@
 .nav nav-tabs{
     position: sticky;
     font-size: medium;
-    background-color: #c7a17a;
+  
 }
 
 
 .nav-link{
+    font-size: x-large;
+
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    
+}
+
+.dropdown-item{
     font-size: large;
+    
+}
+
+.nav-total{
     background-color: #c7a17a;
     color: black;
 }
+
