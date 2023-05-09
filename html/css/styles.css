@@ -753,4 +753,13 @@ color: rgb(141, 77, 77);
 	.content p{
 		font-size: 1.6rem;
 	}
+	main {
+		flex-direction: column;
+		text-align: center;
+   }
+
+   main .contenedor-img {
+		margin-bottom: 40px;
+   }
 }
+
