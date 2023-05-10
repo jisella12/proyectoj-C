@@ -5,18 +5,9 @@
     box-sizing: border-box;
 }
 
-h1{
-    
-margin-top: 0.99%;
-margin-bottom: 0.99%;
-padding-left: 37%;
-font-family: cursive;
-}
-
 body {
-/*     background: ; */
-    color: black;
-    font-size: medium;
+    background:  -webkit-linear-gradient(left,#e4ded9,#FDF5E6, #FFE4E1, #ddc2ae);;
+    color: #fff;
 }
 
 /* -------------------------------------------- MAIN ------------------------------------------*/
@@ -26,8 +17,8 @@ main {
     margin: 25px auto;
     padding: 10px 40px;
     border-radius: 10px;
-    border: 2px solid #c7a17a;
-    box-shadow: 0 2px 10px lightsalmon, 0 2px 10px, lightcoral;
+    border: 2px solid lightcoral;
+    box-shadow: 0 2px 10px #ddc2ae, 0 2px 10px lightpink;
 }
 
 /* -------------------------------------------- FORMULARIO ------------------------------------------*/
@@ -49,15 +40,14 @@ main {
 .formulario__input {
     width: 90%;
     background: transparent;
-    border-bottom: 2px solid white;
-    border-right: none;
+    border-bottom: 2px solid #ddc2ae;
+    border-right: none; 
     color: black;
     font-size: 17px;
     outline: none;
     line-height: 45px;
     padding: 0 10px;
     transition: all 1s;
-    font-family: cursive;
 }
 
 .formulario__validacion-estado {
@@ -70,7 +60,7 @@ main {
 }
 
 .formulario__input:focus {
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px lightcyan;
 }
 
 .formulario__input-error {
@@ -125,17 +115,15 @@ main {
 
 .formulario__btn {
     padding: 15px 35px;
-    background: #c7a17a;
+    background: #000;
     color: #fff;
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    border: 2px solid lightcoral;
-    
 }
 
 .formulario__btn:hover {
-    background: bei;
+    background: #035f22;
     transition: 1s;
 }
 
