@@ -14,19 +14,19 @@ h1{
     }
 
     body {
-            background: -webkit-linear-gradient(left,#e4ded9,#FDF5E6, #FFE4E1, #ddc2ae);
-            color: black;
-            font-size: medium;
+        background: url(/html/images/fondo\ contacto2.jpg);
+            background-size: cover;
+            background-attachment: fixed;
         }
 
         main {
-            width: 40%;
-            max-width: 800px;
-            margin: 25px auto;
-            padding: 10px 40px;
-            border-radius: 10px;
-            border: 2px solid #c7a17a;
-            box-shadow: 0 2px 10px lightsalmon, 0 2px 10px, lightcoral;
+            background: #fff;
+            width: 100%;
+            max-width: 405px;
+            margin: 30px auto;
+            padding:  40px;
+            border-radius: 5px;
+            box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
         }
        
         .formulario{
@@ -45,17 +45,16 @@ h1{
         }
         
         .formulario__input {
-            width: 90%;
-            background: transparent;
-            border-bottom: 2px solid white;
-            border-right: none;
-            color: black;
-            font-size: 17px;
+            width: 100%;
+            background: #ffffff;
+            /* border-bottom: 2px solid #ddc2ae; */
+           /*  color: black; */
+            border-radius: 10px;
+            font-size: 20px;
             outline: none;
             line-height: 45px;
             padding: 0 10px;
             transition: all 1s;
-            font-family: cursive;
         }
 
         .formulario__input:focus {
@@ -79,6 +78,7 @@ h1{
         
 
         .formulario__btn {
+            height: 10px;
             padding: 15px 35px;
             background: #c7a17a;
             color: #fff;
