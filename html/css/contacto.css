@@ -91,3 +91,9 @@ body{
     border-radius: 10px;
     border-color: lightcyan;
 }
+label.error{
+    color: darkred;
+}
+input.error, select, textarea{
+    border: 1px solid darkred;
+}

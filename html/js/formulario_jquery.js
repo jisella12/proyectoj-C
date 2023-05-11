@@ -1,16 +1,3 @@
-var input = document.getElementsByClassName('formulario__input'); 
-
-
-for(var i = 0; i < input.length; i++){
-    input[i].addEventListener('keyup', function(){
-        if(this.value.length>=1){
-            this.nextElementSibling.classList.add('fijar')
-        }else{
-            this.nextElementSibling.classList.remove('fijar')
-
-        }
-    })
-}
 $.validator.addMethod("terminaPor",function(value, element, parametro){
     if(value.endsWith(parametro)){
         return true;
@@ -19,7 +6,7 @@ $.validator.addMethod("terminaPor",function(value, element, parametro){
 
 }, "debe terminar por {0}")
 
-$("#formu").validate({
+$("#formulario_contacto").validate({
     rules: {
         nombre: {
             required: true,
@@ -32,20 +19,19 @@ $("#formu").validate({
             terminaPor: "gmail.com"
 
         },
-        telefono: {
+        tipo_solicitud: {
             required: true,
-            number: true,
-            min: 1,
-            max: 10
+            minlength: 5,
+            maxlenght: 200
         }
     }
 })
  $("#guardar").click(function () {
-    if($("#formu").valid() == false) {
+    if($("#formulario_contacto").valid() == false) {
         return;
     }
     let nombre =$("#nombre").val()
     let email =$("#email").val()
-    let telefono =$("#telefono").val()
+    let tipoSolicitud =$("#tipo_solicitud").val()
+    let aviso =$("#avisos").is(":chacked")
 })
-
